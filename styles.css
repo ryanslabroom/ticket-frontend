@@ -1,0 +1,123 @@
+body {
+    background-image: url("assets/images/background-desktop.png");
+    width: 100%;
+    font-family: Inconsolata;
+}
+
+.topSection {
+    width: 100%;
+    background-image: url("assets/images/pattern-squiggly-line-top.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: white;
+}
+
+.topLogo {
+    width: 10%;
+}
+
+.topDescription {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(252, 6%, 83%);
+}
+
+.bodyTitle {
+    font-size: 3.3rem;
+    width: 40%;
+    text-align: center;
+}
+
+.formSection {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    color: white;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#uploadAv{
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.avDescript {
+    margin: 0%;
+    font-size: 1rem;
+    color: hsl(245, 15%, 58%);
+}
+
+.uploadLab {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    border: 2px dashed white;
+}
+
+.uploadLab img {
+    width: 15%;
+    margin-top: 5%;
+}
+
+.uploadFileBut {
+    display: none;
+}
+
+.labUpload {
+    margin-bottom: 5%;
+}
+
+.avDescript {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#fname {
+    background-color: hsl(248, 70%, 10%);
+}
+
+#emAddress {
+    background-color: hsl(248, 70%, 10%);
+}
+
+#GUser {
+    background-color: hsl(248, 70%, 10%);
+}
+
+button {
+    background-color: hsl(7, 88%, 67%);
+    width: 75%;
+    margin: 5% auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 5%;
+    font-weight: 600;
+}
+
+.divName, .divEmail, .divG {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.divName input, .divEmail input, .divG input {
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: .5rem;
+    opacity: 1;
+    color: hsl(252, 6%, 83%);
+    font-size: 1rem;
+}
+
+.divName label, .divEmail label, .divG label {
+    margin: 3% 0%;
+}
